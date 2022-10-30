@@ -107,6 +107,56 @@ pip install jupyter
 jupyter notebook --ip=0.0.0.0 --allow-root
 ```
 
+<img width="901" alt="image" src="https://user-images.githubusercontent.com/35873877/198896105-1c6b1fe8-c804-4d7c-b937-e4a79446ff47.png">
+
+
+## Connecting to Jupyter Notebook
+
+### All Users ###
+
+Open port 8888 in the firewall
+
+https://cloud.google.com/vpc/docs/using-firewalls
+
+https://console.cloud.google.com/networking/firewalls/list
+
+<img width="954" alt="image" src="https://user-images.githubusercontent.com/35873877/198896290-f31dcc9c-1675-4f08-adab-f3983b30cb12.png">
+
+Create a rule to allow traffic to port 8888
+
+<img width="576" alt="image" src="https://user-images.githubusercontent.com/35873877/198896335-4eeee4e7-8d1f-4d11-bffb-072921ad12d8.png">
+
+For best practice only allow your IP address https://ipchicken.com/ 
+
+<img width="569" alt="image" src="https://user-images.githubusercontent.com/35873877/198896381-98787277-cda6-4e14-8e8d-f99c782b8848.png">
+
+Results
+<img width="656" alt="image" src="https://user-images.githubusercontent.com/35873877/198896420-094f5601-23c2-4987-8ad5-cd4e9a2ecb72.png">
+
+Get your Esxternal IP address from the Compute Engine Screen
+
+<img width="1170" alt="image" src="https://user-images.githubusercontent.com/35873877/198896454-e715e1ad-b3b6-4632-9192-41c61968fc6d.png">
+
+If everything worked
+
+<img width="787" alt="image" src="https://user-images.githubusercontent.com/35873877/198896481-c555b869-3e02-46b7-b86f-c60b450c4b90.png">
+
+To get your token check your SSH Console
+
+<img width="906" alt="image" src="https://user-images.githubusercontent.com/35873877/198896496-67d997dd-beb1-4e78-af7b-3089082c9041.png">
+
+The default path is the folder you launched jupyter notebooks from, so in most cases the home folder and will be empty.
+
+
+
+
+### Mac Users ###
+
+ssh -L 8888:localhost:8888 your_server_username@your_server_ip
+
+### Windows Users ###
+
+https://www.digitalocean.com/community/tutorials/how-to-set-up-jupyter-notebook-with-python-3-on-debian-9#step-5-connect-to-the-server-using-ssh-tunneling
 
 
 
