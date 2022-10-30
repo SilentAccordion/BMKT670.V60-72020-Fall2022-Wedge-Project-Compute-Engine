@@ -63,42 +63,49 @@ This Compute Instance may fall under a free trial, no promises
 
 <img width="680" alt="image" src="https://user-images.githubusercontent.com/35873877/198895395-883ed798-3988-4bc3-9df3-7876609797c5.png">
 
-
-## Jupyter Notebook Setup
-
 ### Connect via SSH
+
 <img width="608" alt="image" src="https://user-images.githubusercontent.com/35873877/198895456-e91917ec-aceb-463e-be31-7064ba1c17ff.png">
-
-
-
-https://www.digitalocean.com/community/tutorials/how-to-set-up-jupyter-notebook-with-python-3-on-debian-9
-
 
 This is an SSH Terminal
 
 <img width="913" alt="image" src="https://user-images.githubusercontent.com/35873877/198895466-7b39a8eb-dc6e-42d8-9522-b59af6573157.png">
 
+
+## Setup Python 3
+
+https://www.how2shout.com/linux/install-python-3-x-or-2-7-on-debian-11-bullseye-linux/
+
+```
+sudo apt install python3 python-is-python3 ipython -y
+```
+
+## Jupyter Notebook Setup
+
+https://www.digitalocean.com/community/tutorials/how-to-set-up-jupyter-notebook-with-python-3-on-debian-9
+
 ### Install Pip and Python Headers
 
-'''
+```
 sudo apt update
-'''
+```
 
-'''
+```
 sudo apt install python3-pip python3-dev -y
-'''
+```
 
 ### Install Jupyter
 
-'''
+```
 pip install jupyter
-'''
+```
 
+** Close SSH Window and Reopen from Google Console **
 
 ## Run Jupyter Notebooks
-'''
-jupyter notebook --ip=0.0.0.0
-'''
+```
+jupyter notebook --ip=0.0.0.0 --allow-root
+```
 
 
 
