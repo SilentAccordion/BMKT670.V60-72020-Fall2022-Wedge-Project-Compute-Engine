@@ -15,10 +15,12 @@ https://cloud.google.com/compute/docs/cpu-platforms#x86_processors
 
 <img width="579" alt="image" src="https://user-images.githubusercontent.com/35873877/198894853-60c99b5b-b490-4341-8927-961d647c038f.png">
 
-Be VERY Careful when selecting intance types!!
+Be VERY Careful when selecting intance types!! Costs can add up quickly if not being careful
+
 <img width="382" alt="image" src="https://user-images.githubusercontent.com/35873877/198894893-baf4c11d-4dff-460f-acc1-8532810b3ae8.png">
 
 For this project, selecting C2 machine is a good balance of speed and power
+
 <img width="838" alt="image" src="https://user-images.githubusercontent.com/35873877/198895022-8e52fed2-c240-40d2-8391-a37eb1e313b0.png">
 
 ### Select Instance Type
