@@ -79,7 +79,7 @@ This is an SSH Terminal
 https://www.how2shout.com/linux/install-python-3-x-or-2-7-on-debian-11-bullseye-linux/
 
 ```
-sudo apt install python3 python-is-python3 ipython -y
+sudo apt install python3 python-is-python3 -y
 ```
 
 ## Jupyter Notebook Setup
@@ -93,7 +93,7 @@ sudo apt update
 ```
 
 ```
-sudo apt install python3-pip python3-dev -y
+sudo apt install python3-pip python3-dev git curl -y
 ```
 
 ### Install Jupyter
